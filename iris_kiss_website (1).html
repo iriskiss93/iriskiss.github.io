@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iris Kiss - Official Artist Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+        header {
+            background: url('hero-image.jpg') center/cover no-repeat;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+        header h1 {
+            font-size: 4rem;
+            text-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+        header p {
+            font-size: 1.3rem;
+            margin-top: 10px;
+        }
+        nav {
+            background: white;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ff4da6;
+        }
+        section {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #ff4da6;
+        }
+        .bio {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+        }
+        .socials a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>Iris Kiss</h1>
+            <p>Visual Artist • Creative Storyteller • Emotion in Colors</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2 class="section-title">About Iris Kiss</h2>
+        <p class="bio">
+            Iris Kiss is a visionary contemporary artist known for her vibrant expression,
+            emotional storytelling, and captivating use of color. Her work blends realism with
+            abstract elements to create immersive visual journeys. Through her paintings and digital art,
+            Iris explores themes of identity, beauty, memory, and the inner landscape of the human spirit.
+        </p>
+    </section>
+
+    <section id="gallery">
+        <h2 class="section-title">Art Gallery</h2>
+        <div class="gallery">
+            <img src="art1.jpg" alt="Art piece 1" />
+            <img src="art2.jpg" alt="Art piece 2" />
+            <img src="art3.jpg" alt="Art piece 3" />
+            <img src="art4.jpg" alt="Art piece 4" />
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <p class="bio">
+            For commissions, collaborations, exhibitions, or inquiries:<br><br>
+            <strong>Email:</strong> iriskiss.art@example.com<br>
+            <strong>Instagram:</strong> @iris.kiss.art<br>
+            <strong>Phone:</strong> +234 000 000 0000
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2025 Iris Kiss. All Rights Reserved.</p>
+        <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+</body>
+</html>
